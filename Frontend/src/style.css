@@ -1,0 +1,85 @@
+/* AuthForm.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .card {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .google-button {
+    padding: 10px;
+    background-color: #D52D28;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .google-button:hover {
+    background-color: #DC4E41;
+  }
+  
+  .switch-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .switch-button {
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .switch-button:hover {
+    text-decoration: underline;
+  }
+  
